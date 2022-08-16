@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <title>CREATIVIA Launcher</title>
+</head>
+
+<body id="body">
+  <div class="topbar">
+    <div id="nsl">
+      <img src="./assets/img_nslab.png">
+    </div>
+    <div id="draggable"></div>
+    <button id="min">
+      <img id="img1" src="./assets/btn_minimize.png">
+    </button>
+    <button id="close">
+      X
+      <!--<img id="img2" src="./assets/btn_exit.png">-->
+    </button>
+  </div>
+
+  <div class="Contents">
+    <div class=Cmain>
+      <div id="percentage">100%</div>
+      <div id="progress">
+        <img id="prgbg" src="./assets/img_progressbarBg.png">
+        <div id="prg">
+        </div>
+      </div>
+      <div id="install_path">C://Program Files/CREATIVIA/
+      </div>
+      <div id="change_btn">
+        <img src="./assets/btn_change.png">
+      </div>
+      <button id="notify_btn">
+        <img src="./assets/btn_notify.png">
+      </button>
+      <button id="btnMain">
+      </button>
+    </div>
+  </div>
+  </div>
+  <script src="./renderer.js"></script>
+</body>
+
+</html>
